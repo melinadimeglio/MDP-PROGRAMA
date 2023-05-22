@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Practica</title>
+</head>
+<body>
+
+    <!--Crear un formulario web para inscribirse en nuestra carrera.
+    ●Tiene que poseer algunos datos de la persona.
+    ●Nombre, apellido, país, email y Si  Trabaja o no.-->
+
+    <form>
+        <h2>Formulario de Inscripcion para el ingreso a la UTN</h2>
+        <label for="nombre">Nombre</label>
+        <input id="nombre" type="text" name="nombre" placeholder="Nombre" required>
+        <br>
+
+        <label for="apellido">Apellido</label>
+        <input id="apellido" type="text" name="apellido" placeholder="Apellido" required>
+        <br>
+
+        <label for="pais">Pais</label>
+        <input id="pais" type="text" name="pais" placeholder="Pais" required>
+        <br>
+
+        <label for="email">Correo electronico</label>
+        <input id="email" type="email" name="email" placeholder="Email" required>
+
+        <br>
+
+        <label for="fecha">Fecha de nacimiento</label>
+        <input id="fecha" type="date" min="1900-01-01" max="2023-12-31">
+
+        <br>
+
+        <label for="seleccion">¿Trabaja?</label>
+        <input id="seleccion" type="radio" value="si" name="seleccion" checked required> Si
+        <input type="radio" value="si" name="seleccion"> No
+
+        <br>
+
+        <button type="submit">Enviar</button>
+    </form>
+
+</body>
+</html>
