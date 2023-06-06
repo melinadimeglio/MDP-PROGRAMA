@@ -1,0 +1,198 @@
+/* Fuentes
+font-family: 'Karla', sans-serif;
+font-family: 'PT Serif', serif;
+font-family: 'Quicksand', sans-serif;
+font-family: 'Staatliches', cursive; */
+
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+body{
+    font-family: 'PT Serif';
+    clear:both;
+
+}
+
+header{
+    width: 100%;
+    height: 150px;
+    background-color: #eb9d2a;
+    margin: 0px;
+    clear:both;
+}
+
+header img{
+    max-width: 150px;
+    float: left;
+    clear:both;
+}
+
+header nav{
+    font-family: 'Quicksand';
+}
+
+.menuHeader ul li{
+    list-style: none;
+    display: inline-block;
+    margin-top: 80px;
+
+}
+
+.menuHeader li a{
+    text-decoration: none;
+    padding: 20px;
+    color: #d7007a;
+    font-size: 25px;
+}
+
+.menuHeader li a:hover{
+    color: blanchedalmond;
+}
+
+main{
+    width: 70%;
+    background-color: blanchedalmond;
+    clear: both;
+    float: left;
+    height: 860px;
+    overflow: scroll;
+}
+
+section .card-product{
+    max-width: 33%;
+    border: 2px solid #d7007a;
+    border-radius: 20px;
+    background-color:  rgb(245, 235, 246);
+    float: left;
+    padding: 10px;
+    margin: 10px 1px 10px 1px;
+    overflow: hidden;
+}
+
+section .card-product img{
+    width: 300px;
+    border-radius: 20px 20px 0px 0px;
+    border-bottom: 2px solid #eb9d2a;
+    height: 300px;
+}
+
+section .card-product .description{
+    text-align: center;
+    line-height: 200%;
+    letter-spacing: 3px;
+}
+
+section .card-product .precio{
+    text-align: right;
+    font-size: 18px;
+    letter-spacing: 3px;
+}
+
+section .card-product__footer{
+    width: 100%;
+    background-color: #eb9d2a;
+    height: 40px;
+    border-radius: 0px 0px 20px 20px;
+}
+
+section .card-product__footer button{
+    width: 50%;
+    float: left;
+    height: 40px;
+    background-color: #eb9d2a;
+    border-radius: 0px 0px 20px 20px;
+    border: none;
+    cursor: pointer;
+
+}
+
+aside{
+    width: 30%;
+    background-color: #eb9d2a;
+    padding: 20px;
+    float: right;
+    
+}
+aside section nav ul{
+    list-style: none;
+    margin: 0px;
+    padding: 0px;
+}
+
+aside section nav li{
+    border-bottom: 1px solid red;
+    margin-bottom: 10px;
+}
+aside section nav a{
+    text-decoration: none;
+    font-size: 20px;
+    padding-bottom: 10px;
+}
+
+aside section nav li:hover{
+    border-bottom: 1px solid black;
+    color:rgb(245, 235, 246)
+
+}
+
+aside .form{
+    width: 100%;
+    border: 1px solid black;
+    border-radius: 10px;
+    padding: 5px;
+}
+
+aside .form h2{
+    text-align: center;
+    padding-bottom: 10px;
+}
+
+aside .form input, .form textarea{
+    width: 100%;
+    height: 40px;
+    font-size: 16px;
+    margin-bottom: 10px;
+}
+
+aside .form textarea{
+    height: 100px;
+}
+
+aside .form button{
+    width: 100%;
+    height: 40px;
+    cursor: pointer;
+    background-color: #d7007a;
+    color: rgb(245, 235, 246);
+    border-radius: 10px;
+}
+
+footer{
+    padding: 60px;
+    background-color: #d7007a;
+    color: white;
+    clear: both;
+}
+
+footer div{
+    width: 50%;
+    float: left;
+}
+
+footer .one{
+    float: left;
+}
+
+footer .two{
+    float: right;
+    text-align: right;
+
+}
+
+footer .two a{
+    color: white;
+    text-decoration: none;
+    padding-right: 10px;
+}
