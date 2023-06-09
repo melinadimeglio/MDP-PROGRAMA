@@ -1,0 +1,78 @@
+
+/** PSEUDOCLASES : **/
+
+p:hover{
+    color: red;
+}
+
+p:first-child{
+    color: yellow;
+}
+
+input:focus{ /** PARA INPUT **/
+    background-color: black;
+    color: white;
+}
+
+input:invalid{
+    color: red;
+}
+
+input:valid{
+    color: blue;
+}
+
+p:last-child{
+    color: aqua;
+}
+
+p:nth-child(3){
+    background-color: red;
+}
+
+a:link{
+    color:blueviolet;
+}
+
+a:visited{ /** CUANDO YA LO VISITE **/
+    color: salmon;
+}
+
+a:hover{
+    color: seagreen;
+}
+
+a:active{  /** CUANDO PRESIONO EL ENLACE **/
+    color:azure;
+}
+
+/** PSEUDO ELEMENTOS :: **/
+
+p::first-line{  /** LA PRIMERA LINEA TENDRA 20px**/
+    font-size: 20px;
+}
+
+p::first-letter{
+    color: tomato;
+}
+
+p::after{
+    content: "a ->"; /** AFTER **/
+}
+
+p::before{
+    content: "c: ->" /** BEFORE **/
+}
+
+div.background{
+    background: url(pexels-pixabay-531880.jpeg);
+    background-repeat: none;
+    background-size: cover;
+    border: solid 3px black;
+}
+
+div.transbox{
+    margin: 30px;
+    background-color: white;
+    opacity: 0.6;
+}

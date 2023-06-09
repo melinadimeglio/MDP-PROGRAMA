@@ -1,2 +1,0 @@
-# laboratorio
-Curso HTML-CSS
