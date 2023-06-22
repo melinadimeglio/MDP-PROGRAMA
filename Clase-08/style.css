@@ -1,0 +1,23 @@
+.contenedorTotal{
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: repeat(2, 1fr);
+    grid-template-areas: 
+    "primero segundo"
+    "tercero tercero";
+}
+
+.primero{
+    grid-area: primero;
+    background-color: aquamarine;
+}
+
+.segundo{
+    grid-area: segundo;
+    background-color: black;
+}
+
+.tercero{
+    grid-area: tercero;
+    background-color: blue;
+}

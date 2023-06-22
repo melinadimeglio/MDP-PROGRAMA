@@ -1,0 +1,20 @@
+div{
+    width: 100px;
+    height: 100px;
+}
+
+section{
+    position: absolute;
+}
+.primero{
+    background-color: aqua;
+}
+.segundo{
+    background-color: black;
+    z-index: 2;
+}
+
+.tercero{
+    background-color: blueviolet;
+    z-index: 3;
+}
