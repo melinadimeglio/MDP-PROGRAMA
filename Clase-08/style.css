@@ -1,23 +1,41 @@
-.contenedorTotal{
-    display: grid;
-    grid-template-columns: 1fr;
-    grid-template-rows: repeat(2, 1fr);
-    grid-template-areas: 
-    "primero segundo"
-    "tercero tercero";
+/**.contenedorTotal{
+    position: relative;
+    display: flex;
 }
 
-.primero{
-    grid-area: primero;
+div{
+    width: 100px;
+    height: 100px;
     background-color: aquamarine;
+    border: solid 1px black;
+    margin: 20px;
+} **/
+
+.container {
+    position: relative;
+    width: 280px; /* 100px + 20px de superposición (20% de 100px) */
 }
 
-.segundo{
-    grid-area: segundo;
-    background-color: black;
+.square {
+    width: 100px;
+    height: 100px;
+    position: absolute;
 }
 
-.tercero{
-    grid-area: tercero;
+#square1 {
+    background-color: red;
+    top: 0;
+    left: 0;
+}
+
+#square2 {
+    background-color: green;
+    top: 0;
+    left: 80px; /* 100px - 20px de superposición */
+}
+
+#square3 {
     background-color: blue;
+    top: 0;
+    left: 160px; /* 100px - 20px de superposición * 2 */
 }
