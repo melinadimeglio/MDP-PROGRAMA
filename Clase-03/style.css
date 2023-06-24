@@ -12,11 +12,14 @@ header{
     width: 100%;
     height: 50px;
     background-color: #EEEEEE;
+    border: solid 1px black;
 }
 
 header nav ul li{
     list-style: none;
     float: left;
+    font-family: 'Courier New', Courier, monospace;
+    padding: 10px;
 }
 
 header nav ul li a{
@@ -26,7 +29,7 @@ display: inline-block;
 color: #425067
 }
 
-header nav ul li a:hover{
+header a:hover{
     background-color: #EEEEEE;
     color: black;
 }
@@ -58,10 +61,15 @@ h2{
     font-size: 1.6em;
 }
 
+.flex{
+    display: flex;
+}
+
 aside{
     background-color: aquamarine;
     width: 30%;
     padding: 30px;
+    border: solid 1px black;
 }
 
 aside ul li{
@@ -69,12 +77,17 @@ aside ul li{
     color: black;
     margin-bottom: 15px;
     border-bottom: 1px solid black;
+    text-decoration: none;
 }
 
+aside ul li a{
+    text-decoration: none;
+}
 footer{
     color: white;
     text-align: center;
-    width: 60%;
+    width: 100%;
     padding: 30px;
     background-color: orange;
+    border: solid 1px black;
 }
