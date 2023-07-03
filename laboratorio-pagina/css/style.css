@@ -237,17 +237,52 @@ footer{
 }
 
 footer ul{
-    margin: 0% 20%;
+    margin: 0% 9%;
 }
 
 footer ul li{
     list-style: none;
     display: inline-block;
     text-align: center;
-    padding: 35px;
+    padding: 0 70px;
     font-size: 15px;
+    text-transform: uppercase;
 }
 
 .span{
     margin-left: 20%;
+}
+
+footer a{
+    margin-right: 20px;
+    padding-right: 10px;
+}
+
+footer .redes {
+    position: fixed;
+    top: 200px;
+    background-color: black;
+    opacity: 0.4;
+    padding-right: 10px;
+    border-radius: 2%;
+}
+
+footer .redes a img {
+    width: 30px;
+    display: block;
+    margin-top: 30px;
+    margin-left: 20px;
+    opacity: 2;
+}
+
+.ver-mas{
+    position: relative;
+    bottom: 5rem;
+    left: 40%;
+    z-index: 1000;
+    width: 100%;
+}
+
+.remera{
+    width: 300px;
 }
