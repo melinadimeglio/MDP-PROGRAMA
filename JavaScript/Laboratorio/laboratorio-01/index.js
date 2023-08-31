@@ -1,5 +1,5 @@
 const prompt = require ("prompt-sync")({sigint:true});
-// Paqueteria para leer PROMPR desde Consola.
+// Paqueteria para leer PROMPT desde Consola.
 
 
 let numeroUno = prompt ("Ingrese el valor uno: ");
@@ -13,7 +13,7 @@ if(numeroDos > numeroUno){
         console.log("Son iguales");
     }
     else{
-        console.log("El numero: " + numeroUno + "es mayor");
+        console.log("El numero: " + numeroUno + " es mayor");
     }
     // FECHA
     //let date = new Date();
@@ -69,7 +69,7 @@ if(numeroDos > numeroUno){
         mensaje = "Son iguales";
     }
 
-    else if((primerNumero > segundoNumero) && (numeroTwo > numeroThree)){
+    else if((primerNumero > segundoNumero) && (segundoNumero > tercerNumero)){
         mensaje = ("El numero mayor es: " + primerNumero);
     }else if ((segundoNumero > tercerNumero) && (segundoNumero > tercerNumero)){
         mensaje = ("El numero mayor es: " + segundoNumero);
@@ -85,4 +85,16 @@ if(numeroDos > numeroUno){
 
 
     //Realizar la tabla de multiplicar dado un valor por el usuario.
+let numero = prompt("Ingrese un numero: ");
+for (let x = 1; x <= 10; x++) {
+    multiplicacion = numero * x;
+    console.log("El resultado de la multiplicacion " + numero + "X" + x + " es igual a: " + multiplicacion);
+
     //Realizar la tabla de dividir dado un valor por el usuario.
+}
+
+let ingrese = ("Ingrese un numero")
+for (let i = 1; i <= 10; i++) {
+    console.log(ingrese * i + "/" + ingrese + "=" + i);
+    
+}
